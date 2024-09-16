@@ -1,12 +1,57 @@
 [
     {
-        "question": "Qual é a função principal do fisioterapeuta esportivo?",
-        "choices": ["Prevenção de lesões", "Realizar cirurgias", "Prescrever medicamentos", "Aconselhamento nutricional"],
-        "correctAnswer": 0
+        "question": "Lesões do tendão de Aquiles estão entre as lesões por overuse mais frequentemente reportadas na literatura e afetam principalmente indivíduos ativos, geralmente envolvidos com esporte profissional ou recreacional. Sobre essas lesões, considerando as recomendações do Guideline 2018 (MARTIN et al, 2018), analise as seguintes afirmações:\n\nI. Achados ultrassonográficos que evidenciem perda da uniformidade estrutural do Tendão de Aquiles são bons preditores de evolução da lesão.\n\nII. Alongamentos dos flexores plantares com joelhos fletidos e estendidos podem ser utilizados para reduzir dor e aumentar o nível de satisfação de pacientes com tendinopatia da porção média do Aquiles, mesmo na ausência de limitação da amplitude de movimento.\n\nIII. Exercícios com carga mecânica devem ser utilizados para reduzir a dor e melhorar a função, e os programas podem se basear tanto em exercícios excêntricos como em exercícios com alta carga e baixa velocidade.\n\nAssinale a alternativa que aponta a(s) correta(s):",
+        "choices": [
+            "Apenas I.",
+            "Apenas II.",
+            "Apenas III.",
+            "Apenas II e III.",
+            "I, II e III."
+        ],
+        "correctAnswer": 2
     },
     {
-        "question": "Qual destes é um método utilizado em fisioterapia esportiva?",
-        "choices": ["Eletroterapia", "Acupuntura estética", "Reiki", "Homeopatia"],
-        "correctAnswer": 0
+        "question": "Ainda sobre as lesões de tendão de Aquiles, considerando as recomendações do Guideline 2018 (MARTIN et al, 2018), assinale a alternativa correta.",
+        "choices": [
+            "Deve ser recomendada por fisioterapeutas a utilização de Laser de baixa frequência e/ou iontoforese com dexametasona como alternativas para reduzir dor e melhorar função em pacientes com tendionopatia da porção média do Aquiles em fase aguda.",
+            "Não deve ser recomendada por fisioterapeutas a utilização de Laser de baixa frequência, mas a iontoforese com dexametasona pode ser considerada como alternativa para reduzir dor e melhorar função em pacientes com tendionopatia da porção média do Aquiles em fase aguda.",
+            "Não deve ser recomendada por fisioterapeutas a utilização de iontoforese com dexametasona, mas Laser de baixa frequência pode ser considerado como alternativa para reduzir dor e melhorar função em pacientes com tendionopatia da porção média do Aquiles em fase aguda.",
+            "Não deve ser recomendada por fisioterapeutas a utilização de recursos eletrotermoterapêuticos, somente o uso de exercício com carga pode ser considerado como alternativa para reduzir dor e melhorar função em pacientes com tendionopatia da porção média do Aquiles em fase aguda.",
+            "NÃO é correto o que se afirma em nenhuma das alternativas anteriores."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "A atuação do Fisioterapeuta na Especialidade em Fisioterapia Esportiva deve observar alguns aspectos relacionados à prática esportiva. Considerando os termos da Resolução Nº. 337, de 08 de novembro de 2007, assinale a alternativa que apresenta um aspecto que NÃO é abrangido por essa resolução.",
+        "choices": [
+            "Relação do esporte e atividade física no contexto da saúde coletiva e da prevenção das lesões.",
+            "Fisiologia do exercício, propriedades biomecânicas do tecido musculoesquelético e características biomecânicas das lesões esportivas.",
+            "Exercício esportivo físico e condicionamento físico dentro do processo de treinamento.",
+            "Fatores predisponentes (extrínsecos e intrínsecos) relacionados com as modalidades esportivas.",
+            "Fatores epidemiológicos e predisponentes à ação da assistência fisioterapêutica especializada na área."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "A tendinopatia patelar é uma lesão por sobrecarga caracterizada por dor e disfunção do tendão patelar e tem alta prevalência em atletas de elite envolvidos em modalidades esportivas com alta demanda de saltos, como voleibol e basquete. Sobre a tendinopatia patelar, é correto afirmar que",
+        "choices": [
+            "Exercícios de fortalecimento dos extensores de joelhos devem priorizar a fase excêntrica para que haja efeito sobre essa estrutura.",
+            "A extensão das alterações teciduais na estrutura do tendão está diretamente relacionada aos desfechos funcionais.",
+            "Dor na região do tendão com início durante a atividade está sempre presente.",
+            "O fisioterapeuta deve estar atento ao controle de carga e ajustes nos parâmetros de treinamento durante o processo de reabilitação.",
+            "O uso, na região do tendão, de injeção de plasma rico em plaquetas pode potencializar os resultados de um programa de exercícios."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "question": "Recursos terapêuticos podem ser utilizados para minimizar ou acelerar a recuperação após dano muscular induzido pelo exercício. Considerando as características desse processo, analise as seguintes afirmações:\n\nI. Esse processo pode ser caracterizado por redução da capacidade de geração de torque, redução da ADM ativa, presença de dor e aumento da concentração sanguínea de proteínas.\n\nII. Medidas subjetivas como Escalas de Percepção de Esforço ou Percepção de Bem-estar podem auxiliar na tomada de decisão para utilização de recursos terapêuticos.\n\nIII. Recursos terapêuticos apresentam bons resultados para efeito imediato e devem ser empregados sempre que os sinais estiverem presentes.\n\nAssinale a alternativa que aponta a(s) correta(s):",
+        "choices": [
+            "Apenas I.",
+            "Apenas I e II.",
+            "Apenas II.",
+            "Apenas I e III.",
+            "I, II e III."
+        ],
+        "correctAnswer": 1
     }
 ]
