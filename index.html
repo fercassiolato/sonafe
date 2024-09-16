@@ -7,9 +7,10 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
+            background-color: #4CAF50; /* Verde para o fundo */
             margin: 0;
             padding: 0;
+            color: #fff; /* Cor do texto em branco */
         }
         #start-form {
             text-align: center;
@@ -20,12 +21,25 @@
             font-size: 16px;
             margin-right: 10px;
         }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #fff; /* Botão branco */
+            color: #4CAF50; /* Texto do botão verde */
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #ddd; /* Cor de fundo do botão ao passar o mouse */
+        }
         #ranking-box {
             margin: 50px auto;
             width: 80%;
-            background-color: yellow;
+            background-color: #fff; /* Fundo do ranking em branco */
             padding: 20px;
             border-radius: 10px;
+            color: #000; /* Cor do texto do ranking em preto */
         }
         #ranking-box h3 {
             margin-top: 0;
@@ -42,10 +56,37 @@
         th {
             background-color: #f4f4f4;
         }
+        .animation.success {
+            background-color: #4CAF50; /* Verde para animação de sucesso */
+        }
+        .animation.error {
+            background-color: #f44336; /* Vermelho para animação de erro */
+        }
     </style>
 </head>
 <body>
     <!-- Tela inicial -->
     <form id="start-form">
         <input type="text" id="player-name" placeholder="Digite seu nome" required />
-        <button type="submit">Com
+        <button type="submit">Começar</button> <!-- Corrigido o texto do botão -->
+    </form>
+
+    <div id="ranking-box" style="display: none;">
+        <h3>Ranking</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Posição</th>
+                    <th>Nome</th>
+                    <th>Respostas Corretas</th>
+                </tr>
+            </thead>
+            <tbody id="ranking-list">
+                <!-- Ranking será preenchido dinamicamente -->
+            </tbody>
+        </table>
+    </div>
+
+    <script src="path/to/your/javascript-file.js"></script> <!-- Atualize o caminho -->
+</body>
+</html>
