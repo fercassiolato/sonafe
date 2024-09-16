@@ -3,26 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz Interativo - Jornada Paranaense</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Quiz de Fisioterapia</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        #start-form {
+            text-align: center;
+            margin-top: 50px;
+        }
+        #player-name {
+            padding: 10px;
+            font-size: 16px;
+            margin-right: 10px;
+        }
+        #ranking-box {
+            margin: 50px auto;
+            width: 80%;
+            background-color: yellow;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        #ranking-box h3 {
+            margin-top: 0;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+    </style>
 </head>
 <body>
-    <div id="start-container" class="centered-container">
-        <button id="start-btn" onclick="startQuiz()">Começar o Jogo</button>
-    </div>
-
-    <div id="quiz-container" class="centered-container hidden">
-        <div class="content-box">
-            <h2 id="question">Pergunta aparecerá aqui</h2>
-            <div id="choices" class="choices-container">
-                <!-- Alternativas irão aparecer aqui -->
-            </div>
-            <button id="check-answer-btn" class="hidden" onclick="checkAnswer()">Confirmar Escolha</button>
-            <p id="feedback"></p>
-            <button id="next-question-btn" class="hidden" onclick="loadQuestion()">Próxima Pergunta</button>
-        </div>
-    </div>
-
-    <script src="script.js"></script>
-</body>
-</html>
+    <!-- Tela inicial -->
+    <form id="start-form">
+        <input type="text" id="player-name" placeholder="Digite seu nome" required />
+        <button type="submit">Com
